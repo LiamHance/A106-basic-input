@@ -12,3 +12,9 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = int(input ("input value of a"))
+b = int(input ("input value of b"))
+c = int(input ("input value of c"))
+x = (a/b)-c 
+print (x)

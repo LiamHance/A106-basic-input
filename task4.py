@@ -20,5 +20,6 @@ import math
 
 h = int(input ("What is the height?"))
 r = int(input("What is the radius?"))
-v = (math.pi * r **2 * h/3)
-print (v)
+l = math.sqrt(r **2 + h **2)
+sa = math.pi* r *(r + math.sqrt(h**2 + r**2))
+print (sa)
